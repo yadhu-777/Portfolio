@@ -6,6 +6,42 @@
 
 
 }
+/* Media query for screens smaller than 576px (mobile devices) */
+@media (max-width: 576px) {
+    #col1{
+        display: none !important; /* Hide the GIF column on small screens */
+        width: 0% !important;
+      
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .side{
+        width: 100%;
+      
+    }
+    .img1{
+        margin: 0rem !important;
+    }
+    #kk{
+        margin: 0rem !important;
+        padding: 2rem !important;
+        width: 0rem !important;
+    }
+    #kd{
+        margin-top: 0rem !important;
+        width: 100%;
+        text-align: center;
+     
+    }
+
+
+    
+    }
+
+  
+
 
 
 #nav{
