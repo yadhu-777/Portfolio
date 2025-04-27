@@ -50,7 +50,9 @@
     }
 
   
-
+.NAV2{
+    display: flex;
+}
 
 
 #nav{
