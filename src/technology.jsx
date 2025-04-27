@@ -2,7 +2,7 @@ export default function Technology(){
     return(
       <div className="container">
         <div className="row p-3 mt-5">
-            <div className="col-6  text-center">
+            <div id="tech1" className="col-6  text-center">
                 <img style={{width:"70%",borderRadius:"2rem",marginBottom:"1rem"}} src="media/image/mongodb.png"/>
 <h2>MongoDB</h2>
             </div>

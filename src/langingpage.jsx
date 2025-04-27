@@ -20,7 +20,7 @@ const time = setTimeout(()=>{
 
     return(
     
-           <div className="row  ">
+           <div id="hero" className="row  ">
             <div id="col1" className="col-2">
            {showGif &&  <img  style={{ width: "200px", height: "auto" }} className="side" src="media/image/rob.gif"/>}
             </div>
